@@ -26,6 +26,7 @@ $student = $student_result->fetch_assoc();
         <h2>Welcome, <?php echo $student['name']; ?></h2>
         <a href="view_courses.php" class="btn btn-info mt-3">View Enrolled Courses</a>
         <a href="view_results.php" class="btn btn-success mt-3">View Your Results</a>
+        <a href="../logout.php" class="btn btn-danger mt-3">Logout</a>
     </div>
 </body>
 </html>

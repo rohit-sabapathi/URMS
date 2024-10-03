@@ -19,6 +19,7 @@ if ($_SESSION['role'] !== 'admin') {
         <h2>Admin Dashboard</h2>
         <a href="manage_users.php" class="btn btn-info mt-3">Manage Users</a>
         <a href="manage_courses.php" class="btn btn-success mt-3">Manage Courses</a>
+        <a href="../logout.php" class="btn btn-danger mt-3">Logout</a>
     </div>
 </body>
 </html>

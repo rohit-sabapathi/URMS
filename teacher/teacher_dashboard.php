@@ -42,6 +42,7 @@ $students_result = $conn->query($students_sql);
                 <?php } ?>
             </tbody>
         </table>
+        <a href="../logout.php" class="btn btn-danger mt-3">Logout</a>
     </div>
 </body>
 </html>
